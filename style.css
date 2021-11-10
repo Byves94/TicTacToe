@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    background-color: gainsboro;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+}
+
+div > button {
+    width: 100px;
+    height: 100px;
+}
+
